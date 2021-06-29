@@ -9,6 +9,7 @@
 Import the [[./cakestore.sql]['cakestore.sql' ]] file to your MySQL database.
 Your authentication will based on the 'employee' table created at your DB.
 
+[[https://github.com/jamesp101/MySQLConnection/files/6734875/cakestore.zip][Download]] the binary and unzip.
 To run the app open the '.exe' file
 
 
