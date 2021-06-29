@@ -1,0 +1,15 @@
+* Requirements
+- [[https://visualstudio.microsoft.com/][Visual Studio 2015 or higher (recommended 2019)]]
+- [[https://mysqlconnector.net/][MySqlConnector]]
+  - [[https://mysqlconnector.net/overview/installing/][MySqlConnector Installation]]
+- .NET Core 3.1.0
+- MySQL/MariaDb
+
+* Opening the app
+Import the [[./cakestore.sql]['cakestore.sql' ]] file to your MySQL database.
+Your authentication will based on the 'employee' table created at your DB.
+
+
+* Opening in Visual Studio
+Clone this project (or Download ZIP) and open the 'MySQLConnection.sln'  in
+Visual Studio.
