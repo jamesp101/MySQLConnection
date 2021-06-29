@@ -99,6 +99,7 @@ namespace MySQLConnection
             this.button2.TabIndex = 1;
             this.button2.Text = "History";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button4
             // 
@@ -112,8 +113,9 @@ namespace MySQLConnection
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(191, 68);
             this.button4.TabIndex = 3;
-            this.button4.Text = "Settings";
+            this.button4.Text = "Profile";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -129,6 +131,7 @@ namespace MySQLConnection
             this.button3.TabIndex = 4;
             this.button3.Text = "Logout";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // panel1
             // 
@@ -137,6 +140,7 @@ namespace MySQLConnection
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1046, 679);
             this.panel1.TabIndex = 1;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // Dashboard
             // 
